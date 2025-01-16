@@ -220,7 +220,7 @@ a {
         row-gap: 20px;
         column-gap: 20px;
     };
-    @media (max-width: 390px) {
+    @media (max-width: 400px) {
         row-gap: 10px;
         column-gap: 10px;
     };
@@ -249,7 +249,7 @@ a {
         width: 180px;
         height: 360px;
     };
-    @media (max-width: 390px) {
+    @media (max-width: 400px) {
         width: 155px;
         height: 320px;
     };
@@ -267,9 +267,9 @@ a {
         width: 200px;
     };
     @media (max-width: 480px) {
-        width: 180px;
+        width: 190px;
     };
-    @media (max-width: 390px) {
+    @media (max-width: 400px) {
         width: 155px;
     };
 }
