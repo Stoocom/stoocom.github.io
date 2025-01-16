@@ -174,6 +174,22 @@ a {
     font-size: 12px;
     color: #000000
 }
+.search_block_xl {
+    display: block;
+    @media (max-width: 1600px) {
+        display: none;
+    };
+}
+.search_block_sx {
+    width: 39px;
+    height: 39px;
+    background-color: #231815;
+    border-radius: 50%;
+    display: none;
+    @media (max-width: 1600px) {
+        display: flex;
+    };
+}
 
 /* main */
 .title {
@@ -229,10 +245,7 @@ a {
 .card {
     width: 320px;
     height: 565px;
-    /* @media (min-width: 1600px) {
-        width: 320px;
-        height: 565px;
-    }; */
+    position: relative;
     @media (max-width: 1600px) {
         width: 287px;
         height: 516px;
@@ -272,6 +285,28 @@ a {
     @media (max-width: 400px) {
         width: 155px;
     };
+}
+.card .promo {
+    width: 126px;
+    height: 38px;
+    background-color: #231815;
+    border-radius: 100px;
+    font-weight: 600;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #FFFFFF
+}
+.card .info {
+    width: 90%;
+    height: 48px;
+    background-color: #E45302;
+    border-radius: 100px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 15px;
+    left: 5%;
+    color: #FFFFFF
 }
 .card .desc {
     font-size: 18px;
